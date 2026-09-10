@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<style>
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{ font-family: "Sarabun","Tahoma",sans-serif; }
+.box{
+	width:1024px;
+	margin:0 auto;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	background-image: url(images/Header.png);
+	height:500px;
+	background-size: auto;
+	background-position:center;
+}
+section{
+	display:flex;
+	flex: 1;
+}
+
+/* Nav */
+nav{
+	background: linear-gradient(180deg, #ffa17f 0%, #00223e 100%);
+	flex:1;
+}
+a:link{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:transparent;
+	display:block;
+	width:100%;
+	padding:12px 16px;
+}
+a:visited{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:transparent;
+}
+a:hover{
+	color:#00223e;
+	text-decoration:none;
+	background-color:#ffffff;
+}
+a:active{
+	color:#00223e;
+	text-decoration:none;
+	background-color:#ffe8e0;
+}
+/* เมนูหน้าปัจจุบันของ Vocabulary */
+nav ul li.current a{
+	background-color:#ffffff;
+	color:#00223e;
+	font-weight:bold;
+}
+
+/* Article & Content Styles */
+article{
+	background-color:#fcf8f6;
+	color:#1e1e1e;
+	padding:20px 30px;
+	flex:400px;
+}
+article h1{
+	color:#00223e;
+	margin-bottom: 10px;
+}
+article table{
+	width:100%;
+	border-collapse:collapse;
+	margin-top:15px;
+	margin-bottom:15px;
+	background:#ffffff;
+}
+article th, article td{
+	border:1px solid #f2d5cb;
+	padding:8px 12px;
+	text-align:left;
+	font-size:0.92rem;
+	vertical-align:middle;
+}
+article th{
+	background: linear-gradient(135deg, #ffa17f, #00223e);
+	color:#ffffff;
+}
+article tr:nth-child(even){
+	background-color: #fdf6f3;
+}
+
+.intro-text {
+	margin-bottom: 15px;
+	line-height: 1.6;
+}
+
+/* Footer */
+footer{
+	background: linear-gradient(135deg, #ffa17f, #00223e);
+	padding:25px;
+	text-align:center;
+	color:#ffffff;
+	font-weight: bold;
+	margin-top: auto;
+}
+</style>
+<meta charset="utf-8">
+<title>Vocabulary น่ารู้!</title>
+</head>
+<body>
+<div class="box">
+<header>
+</header>
+<section>
+<nav>
+<ul style="list-style-type:none">
+<li><a href="index.html">Tense</a></li>
+<li><a href="page2.html">Present Tenses</a></li>
+<li><a href="page3.html">Past Tenses</a></li>
+<li><a href="page4.html">Future Tenses</a></li>
+<li class="current"><a href="page5.html">Vocabularyน่ารู้!</a></li>
+</ul>
+</nav>
+<article>
+<h1>Vocabulary ศัพท์น่ารู้!</h1>
+<p class="intro-text">รวบรวมคำศัพท์ภาษาอังกฤษน่ารู้จากบทเรียนทั้งหมด เพื่อช่วยเพิ่มพูนคลังคำศัพท์และนำไปปรับใช้ในชีวิตประจำวัน</p>
+
+<table>
+<thead>
+<tr>
+	<th style="width:10%; text-align:center;">ลำดับ</th>
+	<th style="width:40%;">Vocabulary</th>
+	<th style="width:50%;">ความหมาย</th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center;">1</td><td><b>expense</b></td><td>ค่าใช้จ่าย</td></tr>
+<tr><td style="text-align:center;">2</td><td><b>cost</b></td><td>ค่าใช้จ่าย / ต้นทุน</td></tr>
+<tr><td style="text-align:center;">3</td><td><b>price</b></td><td>ราคา</td></tr>
+<tr><td style="text-align:center;">4</td><td><b>change</b></td><td>เงินทอน</td></tr>
+<tr><td style="text-align:center;">5</td><td><b>pay / payment</b></td><td>การจ่ายเงิน / การชำระหนี้</td></tr>
+<tr><td style="text-align:center;">6</td><td><b>borrowing</b></td><td>การกู้ยืมเงิน</td></tr>
+<tr><td style="text-align:center;">7</td><td><b>lending rate</b></td><td>อัตราดอกเบี้ยเงินกู้</td></tr>
+<tr><td style="text-align:center;">8</td><td><b>deposit</b></td><td>เงินฝาก / เงินมัดจำ</td></tr>
+<tr><td style="text-align:center;">9</td><td><b>withdrawal</b></td><td>การถอน (เงิน)</td></tr>
+<tr><td style="text-align:center;">10</td><td><b>transfer</b></td><td>การโอน (เงิน)</td></tr>
+<tr><td style="text-align:center;">11</td><td><b>future</b></td><td>อนาคต</td></tr>
+<tr><td style="text-align:center;">12</td><td><b>success</b></td><td>ความสำเร็จ</td></tr>
+<tr><td style="text-align:center;">13</td><td><b>achievement</b></td><td>ความสำเร็จ / การสำเร็จลุล่วง</td></tr>
+<tr><td style="text-align:center;">14</td><td><b>result</b></td><td>ผลลัพธ์</td></tr>
+<tr><td style="text-align:center;">15</td><td><b>goal</b></td><td>เป้าหมาย / จุดมุ่งหมาย</td></tr>
+<tr><td style="text-align:center;">16</td><td><b>start</b></td><td>จุดเริ่มต้น</td></tr>
+<tr><td style="text-align:center;">17</td><td><b>process</b></td><td>กระบวนการ / แนวทางปฏิบัติ / ขั้นตอน</td></tr>
+<tr><td style="text-align:center;">18</td><td><b>practice</b></td><td>การฝึกฝน</td></tr>
+<tr><td style="text-align:center;">19</td><td><b>desire</b></td><td>ความปรารถนา</td></tr>
+<tr><td style="text-align:center;">20</td><td><b>preparation</b></td><td>การเตรียมการ</td></tr>
+<tr><td style="text-align:center;">21</td><td><b>prediction</b></td><td>การคาดการณ์</td></tr>
+<tr><td style="text-align:center;">22</td><td><b>forecast</b></td><td>การพยากรณ์</td></tr>
+<tr><td style="text-align:center;">23</td><td><b>possibility</b></td><td>ความเป็นไปได้</td></tr>
+<tr><td style="text-align:center;">24</td><td><b>likelihood</b></td><td>ความเป็นไปได้</td></tr>
+<tr><td style="text-align:center;">25</td><td><b>probability</b></td><td>ความน่าจะเป็น</td></tr>
+<tr><td style="text-align:center;">26</td><td><b>fortune teller</b></td><td>หมอดู</td></tr>
+<tr><td style="text-align:center;">27</td><td><b>card reading</b></td><td>การอ่านไพ่ทำนาย</td></tr>
+<tr><td style="text-align:center;">28</td><td><b>(be) sure to</b></td><td>แน่ใจว่าจะ</td></tr>
+<tr><td style="text-align:center;">29</td><td><b>(be) likely to</b></td><td>มีแนวโน้มที่จะ</td></tr>
+<tr><td style="text-align:center;">30</td><td><b>tend to</b></td><td>มีแนวโน้มที่จะ</td></tr>
+<tr><td style="text-align:center;">31</td><td><b>make a plan</b></td><td>วางแผน</td></tr>
+<tr><td style="text-align:center;">32</td><td><b>outline a plan</b></td><td>ร่างเค้าโครงแผนการ</td></tr>
+<tr><td style="text-align:center;">33</td><td><b>carry out a plan</b></td><td>ทำแผนการให้สำเร็จ</td></tr>
+<tr><td style="text-align:center;">34</td><td><b>stick to a plan</b></td><td>ยึดมั่นในแผนการ</td></tr>
+<tr><td style="text-align:center;">35</td><td><b>develop a plan</b></td><td>พัฒนาแผนการ</td></tr>
+<tr><td style="text-align:center;">36</td><td><b>review a plan</b></td><td>ทบทวนแผนการ</td></tr>
+<tr><td style="text-align:center;">37</td><td><b>abandon a plan</b></td><td>ทิ้งแผนการ</td></tr>
+<tr><td style="text-align:center;">38</td><td><b>unveil a plan</b></td><td>เปิดเผยแผนการ</td></tr>
+<tr><td style="text-align:center;">39</td><td><b>come up with a plan</b></td><td>คิดหาแผนการ</td></tr>
+<tr><td style="text-align:center;">40</td><td><b>go according to plan</b></td><td>เป็นไปตามแผนการ</td></tr>
+<tr><td style="text-align:center;">41</td><td><b>timetable</b></td><td>ตารางเวลา</td></tr>
+<tr><td style="text-align:center;">42</td><td><b>schedule</b></td><td>กำหนดการ / ตารางเวลา</td></tr>
+<tr><td style="text-align:center;">43</td><td><b>weekday timetable</b></td><td>ตารางเวลาวันธรรมดา</td></tr>
+<tr><td style="text-align:center;">44</td><td><b>weekend timetable</b></td><td>ตารางเวลาวันหยุดสุดสัปดาห์</td></tr>
+<tr><td style="text-align:center;">45</td><td><b>holiday timetable</b></td><td>ตารางเวลาวันหยุด</td></tr>
+<tr><td style="text-align:center;">46</td><td><b>departure time</b></td><td>เวลาออกเดินทาง</td></tr>
+<tr><td style="text-align:center;">47</td><td><b>arrival time</b></td><td>เวลามาถึง</td></tr>
+<tr><td style="text-align:center;">48</td><td><b>boarding time</b></td><td>เวลาขึ้นเครื่องบิน</td></tr>
+<tr><td style="text-align:center;">49</td><td><b>estimated time of departure</b></td><td>เวลาออกเดินทางโดยประมาณ</td></tr>
+<tr><td style="text-align:center;">50</td><td><b>estimated time of arrival</b></td><td>เวลามาถึงโดยประมาณ</td></tr>
+<tr><td style="text-align:center;">51</td><td><b>matter</b></td><td>เรื่อง / เรื่องราว</td></tr>
+<tr><td style="text-align:center;">52</td><td><b>occasion</b></td><td>โอกาส / เหตุการณ์</td></tr>
+<tr><td style="text-align:center;">53</td><td><b>occurrence</b></td><td>การเกิดขึ้น / เหตุการณ์ที่เกิดขึ้น</td></tr>
+<tr><td style="text-align:center;">54</td><td><b>situation</b></td><td>สถานการณ์</td></tr>
+<tr><td style="text-align:center;">55</td><td><b>incident</b></td><td>เหตุการณ์</td></tr>
+<tr><td style="text-align:center;">56</td><td><b>circumstance</b></td><td>สถานการณ์ / เหตุการณ์</td></tr>
+<tr><td style="text-align:center;">57</td><td><b>happening</b></td><td>สิ่งที่เกิดขึ้น / เหตุการณ์</td></tr>
+<tr><td style="text-align:center;">58</td><td><b>event</b></td><td>เหตุการณ์ / เหตุการณ์สำคัญ</td></tr>
+<tr><td style="text-align:center;">59</td><td><b>scene</b></td><td>สถานที่เกิดเหตุ</td></tr>
+<tr><td style="text-align:center;">60</td><td><b>location</b></td><td>สถานที่ / ตำแหน่งที่ตั้ง</td></tr>
+<tr><td style="text-align:center;">61</td><td><b>Long time no see.</b></td><td>ไม่ได้เจอกันนานเลยนะ (ภาษาพูด)</td></tr>
+<tr><td style="text-align:center;">62</td><td><b>What's up?</b></td><td>เป็นยังไงบ้าง (ภาษาพูด)</td></tr>
+<tr><td style="text-align:center;">63</td><td><b>Happy to see you.</b></td><td>ดีใจที่ได้เจอคุณนะ</td></tr>
+<tr><td style="text-align:center;">64</td><td><b>See you later.</b></td><td>ไว้เจอกันนะ</td></tr>
+<tr><td style="text-align:center;">65</td><td><b>friendship</b></td><td>มิตรภาพ</td></tr>
+<tr><td style="text-align:center;">66</td><td><b>relationship</b></td><td>ความสัมพันธ์</td></tr>
+<tr><td style="text-align:center;">67</td><td><b>memory</b></td><td>ความทรงจำ</td></tr>
+<tr><td style="text-align:center;">68</td><td><b>miss</b></td><td>คิดถึง</td></tr>
+<tr><td style="text-align:center;">69</td><td><b>dude / man / bro</b></td><td>คำเรียกเพื่อนผู้ชายที่สนิทมาก ๆ (ภาษาพูด ใช้กับคนสนิทเท่านั้น)</td></tr>
+<tr><td style="text-align:center;">70</td><td><b>gal / girl / sis</b></td><td>คำเรียกเพื่อนผู้หญิงที่สนิทมาก ๆ (ภาษาพูด ใช้กับคนสนิทเท่านั้น)</td></tr>
+<tr><td style="text-align:center;">71</td><td><b>skill</b></td><td>ทักษะ</td></tr>
+<tr><td style="text-align:center;">72</td><td><b>talent</b></td><td>ความสามารถพิเศษ</td></tr>
+<tr><td style="text-align:center;">73</td><td><b>genius</b></td><td>อัจฉริยะ / ผู้มีพรสวรรค์</td></tr>
+<tr><td style="text-align:center;">74</td><td><b>capability</b></td><td>ความสามารถ</td></tr>
+<tr><td style="text-align:center;">75</td><td><b>ability</b></td><td>ความสามารถ</td></tr>
+<tr><td style="text-align:center;">76</td><td><b>gift</b></td><td>พรสวรรค์ / ความสามารถพิเศษ</td></tr>
+<tr><td style="text-align:center;">77</td><td><b>proficiency</b></td><td>ความเชี่ยวชาญ / ความชำนาญ</td></tr>
+<tr><td style="text-align:center;">78</td><td><b>professional</b></td><td>มืออาชีพ / ผู้เชี่ยวชาญ</td></tr>
+<tr><td style="text-align:center;">79</td><td><b>aptitude</b></td><td>ความถนัด / ความฉลาดในการเรียนรู้</td></tr>
+<tr><td style="text-align:center;">80</td><td><b>expertness</b></td><td>ความถนัด / ความสามารถ</td></tr>
+</tbody>
+</table>
+
+</article>
+</section>
+<footer><p>จัดทำโดยนายรัฐศาสตร์ จำปาเนียม ชั้น ม.6/3 เลขที่14<br>โรงเรียนรัตนราษฎร์บำรุง</p></footer>
+</div>
+</body>
+</html>
